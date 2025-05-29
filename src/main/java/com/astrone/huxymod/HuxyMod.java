@@ -1,6 +1,7 @@
 package com.astrone.huxymod;
 
 import com.astrone.huxymod.block.ModBlocks;
+import com.astrone.huxymod.item.ModCreativeModeTabs;
 import com.astrone.huxymod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -36,6 +37,8 @@ public class HuxyMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -53,19 +56,19 @@ public class HuxyMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ALEXANDRITE);
-            event.accept(ModItems.RAW_ALEXANDRITE);
-        }
+//        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+//            event.accept(ModItems.ALEXANDRITE);
+//            event.accept(ModItems.RAW_ALEXANDRITE);
+//        }
 
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.PP);
         }
 
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
-            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
-        }
+//        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+//            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+//            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+//        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

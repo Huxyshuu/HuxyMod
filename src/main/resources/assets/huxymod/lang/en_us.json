@@ -3,6 +3,11 @@
   "item.huxymod.raw_alexandrite": "Raw Alexandrite",
   "item.huxymod.pp": "Big PP",
 
-  "block.huxymod.alexandrtie_block": "Block of Alexandrite",
-  "block.huxymod.raw_alexandrtie_block": "Block of Raw Alexandrite"
+  "block.huxymod.alexandrite_block": "Block of Alexandrite",
+  "block.huxymod.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.huxymod.alexandrite_ore": "Alexandrite Ore",
+  "block.huxymod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+
+  "creativetab.huxymod.alexanderite_items": "Alexanderite Items",
+  "creativetab.huxymod.alexanderite_blocks": "Alexanderite Blocks"
 }

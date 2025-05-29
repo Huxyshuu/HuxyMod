@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "huxymod:alexandrite_block",
+    "huxymod:raw_alexandrite_block",
+    "huxymod:alexandrite_ore",
+    "huxymod:alexandrite_deepslate_ore"
+  ]
+}
