@@ -1,0 +1,6 @@
+{
+  "partent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "huxymod:item/alexandrite"
+  }
+}
