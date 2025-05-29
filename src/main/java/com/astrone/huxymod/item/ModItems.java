@@ -14,6 +14,12 @@ public class ModItems {
     public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PP = ITEMS.register("pp",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

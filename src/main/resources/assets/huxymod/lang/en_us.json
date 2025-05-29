@@ -1,3 +1,8 @@
 {
-  "item.huxymod.alexandrite": "Alexandrite"
+  "item.huxymod.alexandrite": "Alexandrite Gem",
+  "item.huxymod.raw_alexandrite": "Raw Alexandrite",
+  "item.huxymod.pp": "Big PP",
+
+  "block.huxymod.alexandrtie_block": "Block of Alexandrite",
+  "block.huxymod.raw_alexandrtie_block": "Block of Raw Alexandrite"
 }
