@@ -24,6 +24,10 @@ public class ModCreativeModeTabs {
 
 
                         output.accept(ModItems.CHISEL.get());
+
+                        output.accept(ModItems.KOHLRABI.get());
+
+                        output.accept(ModItems.AURORA_ASHES.get());
                     })
                     .build());
 
@@ -40,6 +44,19 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
 
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
+                    })
+                    .build());
+
+    public static final RegistryObject<CreativeModeTab> HUXY_MOD_TAB = CREATIVE_MODE_TABS.register("huxy_mod_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.PP.get()))
+                    .withTabsBefore(ALEXANDRITE_BLOCKS_TAB.getId())
+                    .title(Component.translatable("creativetab.huxymod.huxy_mod"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.PP_ORE.get());
+                        output.accept(ModItems.PP.get());
+                        output.accept(ModItems.SMALL_PP.get());
+                        output.accept(ModItems.SUSPICIOUS_BOTTLE.get());
                     })
                     .build());
 

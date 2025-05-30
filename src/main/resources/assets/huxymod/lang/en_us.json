@@ -2,7 +2,13 @@
   "item.huxymod.alexandrite": "Alexandrite Gem",
   "item.huxymod.raw_alexandrite": "Raw Alexandrite",
   "item.huxymod.pp": "Big PP",
+  "item.huxymod.small_pp": "Small PP",
   "item.huxymod.chisel": "Chisel",
+  "item.huxymod.suspicious_bottle": "Suspicious Bottle",
+
+  "item.huxymod.kohlrabi": "Kohlrabi",
+
+  "item.huxymod.aurora_ashes": "Aurora Ashes",
 
   "block.huxymod.alexandrite_block": "Block of Alexandrite",
   "block.huxymod.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -12,5 +18,7 @@
   "block.huxymod.magic_block": "Magic Block",
 
   "creativetab.huxymod.alexanderite_items": "Alexanderite Items",
-  "creativetab.huxymod.alexanderite_blocks": "Alexanderite Blocks"
+  "creativetab.huxymod.alexanderite_blocks": "Alexanderite Blocks",
+
+  "creativetab.huxymod.huxy_mod": "Huxy Mod Items"
 }

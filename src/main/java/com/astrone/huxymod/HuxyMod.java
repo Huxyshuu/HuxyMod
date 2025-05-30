@@ -56,9 +56,9 @@ public class HuxyMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.PP);
-        }
+//        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+//            event.accept(ModItems.PP);
+//        }
 
 //        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 //            event.accept(ModBlocks.ALEXANDRITE_BLOCK);

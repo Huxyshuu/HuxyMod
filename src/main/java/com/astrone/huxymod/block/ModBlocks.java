@@ -33,6 +33,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> PP_ORE = registerBlock("pp_ore",
+            () -> new DropExperienceBlock(UniformInt.of(6, 8), BlockBehaviour.Properties.of()
+                    .strength(3f).requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> ALEXANDRITE_DEEPSLATE_ORE = registerBlock("alexandrite_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
