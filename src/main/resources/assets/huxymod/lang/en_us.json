@@ -17,6 +17,19 @@
 
   "block.huxymod.magic_block": "Magic Block",
 
+  "block.huxymod.alexandrite_stairs": "Alexandrite Stairs",
+  "block.huxymod.alexandrite_slab": "Alexandrite Slab",
+
+  "block.huxymod.alexandrite_button": "Alexandrite Button",
+  "block.huxymod.alexandrite_pressure_plate": "Alexandrite Pressure Plate",
+
+  "block.huxymod.alexandrite_fence": "Alexandrite Fence",
+  "block.huxymod.alexandrite_fence_gate": "Alexandrite Fence Gate",
+  "block.huxymod.alexandrite_wall": "Alexandrite Wall",
+
+  "block.huxymod.alexandrite_door": "Alexandrite Door",
+  "block.huxymod.alexandrite_trapdoor": "Alexandrite Trapdoor",
+
   "creativetab.huxymod.alexanderite_items": "Alexanderite Items",
   "creativetab.huxymod.alexanderite_blocks": "Alexanderite Blocks",
 

@@ -1,8 +1,8 @@
 package com.astrone.huxymod.item;
 
 import com.astrone.huxymod.HuxyMod;
-import com.astrone.huxymod.block.custom.DrinkableItem;
-import com.astrone.huxymod.block.custom.FuelItem;
+import com.astrone.huxymod.item.custom.DrinkableItem;
+import com.astrone.huxymod.item.custom.FuelItem;
 import com.astrone.huxymod.item.custom.ChiselItem;
 import com.astrone.huxymod.item.custom.ModFoodProperties;
 import net.minecraft.network.chat.Component;
