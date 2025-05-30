@@ -20,5 +20,12 @@
   "creativetab.huxymod.alexanderite_items": "Alexanderite Items",
   "creativetab.huxymod.alexanderite_blocks": "Alexanderite Blocks",
 
-  "creativetab.huxymod.huxy_mod": "Huxy Mod Items"
+  "creativetab.huxymod.huxy_mod": "Huxy Mod Items",
+
+  "tooltip.huxymod.magic_block.tooltip": "This block is quite §9§lMAGICAL§r",
+  "tooltip.huxymod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.huxymod.chisel": "Press §eShift§r for more Information!",
+  "tooltip.huxymod.kohlrabi": "This tastes Great!",
+
+  "tooltip.huxymod.suspicious_bottle": "§o§hSomething ain't quite right about this bottle!§r"
 }
