@@ -16,10 +16,15 @@ out
 # gradle
 build
 .gradle
+*.log.gz
+.cache
+*.log
+generated/
 
 # other
 eclipse
 run
+fml.toml
 
 # Files from Forge MDK
 forge*changelog.txt
